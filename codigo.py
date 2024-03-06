@@ -27,16 +27,16 @@ pyautogui.press("enter")
 #esperar 5 segundos 
 time.sleep(5)
 # passo 2 - Fazer login 
-pyautogui.click(x=2148, y=412)
+pyautogui.click(x=461, y=394)
 # digitar email
 pyautogui.write("wagner98@hotmail.com")
 # passar para o campo de senha 
 pyautogui.press("tab")
 #digitar senha 
 pyautogui.write("minha senha ")
-
-pyautogui.click(x=2311, y=570)
+pyautogui.click(x=944, y=645)
 time.sleep(3)
+
 # passo 3 - Importar a base de Dados 
 import pandas
 tabela = pandas.read_csv("produtos.csv")
